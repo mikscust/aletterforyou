@@ -1,0 +1,49 @@
+/*
+font-family: 'Gilda Display', serif;
+*/
+
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.press-me-button-section-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.press-me-button-section-box {
+    width: auto;
+}
+
+         
+.press-me-button {
+    font-family: 'Gilda Display', serif;
+
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.press-me-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ 

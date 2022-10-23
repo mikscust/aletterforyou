@@ -1,0 +1,42 @@
+/* 
+font-family: 'Gilda Display', serif;
+font-family: 'Hind Vadodara', sans-serif;
+*/
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    margin: 2rem;
+}
+
+.letter-for-someone-section-container {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.press-me-button-section-box {
+    width: auto;
+}
+
+.dear-you-section 
+.dear-you-paragraph-section
+.dear-you-last-sentence-section 
+.warmest-regards-closure-section {
+    text-align: center;
+}
+
+
+
+.dear-you-text
+.warmest-regards-text {
+    font-family: 'Gilda Display', serif;
+}
+
+.paragraph-texts {
+    font-family: 'Hind Vadodara', sans-serif;
+}
